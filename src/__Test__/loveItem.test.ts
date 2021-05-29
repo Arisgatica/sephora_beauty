@@ -12,7 +12,7 @@ test('Opens sephora.com and logs in', async () => {
     await myPage.click(myPage.account)
     await myPage.click(myPage.account)
     await myPage.setInput(myPage.username, 'nacaari@yahoo.com')
-    await myPage.setInput(myPage.password, 'Sephora1516!')
+    await myPage.setInput(myPage.password, 'SephoraTest123')
     await myPage.click(myPage.loginButton)
     await myDriver.sleep (3000)
     await myPage.click(myPage.makeup)
